@@ -59,10 +59,6 @@ npm start
 
 [!Preview](public/Images/Preview.png)
 
-## 📌 Future Enhancements
-
--
-
 ## 📝 License
 
 This project is licensed under the **MIT License**.
