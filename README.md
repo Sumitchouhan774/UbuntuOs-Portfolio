@@ -1,5 +1,3 @@
-
-```md
 # Ubuntu-Style Portfolio
 
 🚀 **Ubuntu-Style Portfolio** is a personal portfolio website inspired by the Ubuntu OS. It features a movable sidebar, a dynamic about section, and interactive project showcases.
