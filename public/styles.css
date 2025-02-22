@@ -7,7 +7,7 @@
     
 }
 body {
-    background-image: url(Images/bg.jpg);
+    background-image: url(Images/bg.webp);
     background-size: cover;
     /* background-position: center; */
     background-repeat: no-repeat;
@@ -266,12 +266,15 @@ body {
         align-items: flex-start;
     }
     .about {
-        width: 90vw; /* Make it almost full width */
-        height: auto; /* Let it adjust based on content */
+        width: 90vw;
+        height: 80vh; /* Make it almost full width */ /* Let it adjust based on content */
         max-height: 90vh; /* Prevent overflow on smaller screens */
         /* padding: 15px; */
     }
     .content {
         padding: 15px;
     }
+    .body {
+        background-size: contain;
+    } 
 }

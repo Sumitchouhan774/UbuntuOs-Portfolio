@@ -48,19 +48,19 @@ function App() {
 
             {/* Home Icon to Open About Section */}
             <div className="home-icon" onClick={() => setIsAboutOpen(true)}>
-                <Icons place="Images/Logos/user-home.png" />
+                <Icons place="Images/Logos/user-home.webp" />
                 <p>About me</p>
             </div>
 
             <div className="left">
-                <Icons onClick={() => (window.location.href='https://www.google.com')} place="Images/Logos/chromium.png" />
-                <Icons place="/Images/Logos/vscode.png" />
-                <Icons place="/Images/Logos/spotify.png" />
-                <Icons onClick={() => setIsAboutOpen(true)} place="/Images/Logos/user-home.png"/>
-                <Icons onClick={() => (window.location.href='https://github.com/Sumitchouhan774')} place="/Images/Logos/github.png" />
-                <Icons onClick={() => (window.location.href='https://www.linkedin.com/in/sumit-chouhan-848674272/')} place="/Images/Logos/linkedin.png" />
+                <Icons onClick={() => (window.location.href='https://www.google.com')} place="Images/Logos/chromium.webp" />
+                <Icons onClick={() => (window.location.href='https://codesandbox.io/p/github/Sumitchouhan774/UbuntuOs-Portfolio/master?workspaceId=ws_AuXM2eJ9pGGKAVUoazjPfK')} place="/Images/Logos/vscode.webp" />
+                <Icons onClick={() => setIsAboutOpen(true)} place="/Images/Logos/user-home.webp"/>
+                <Icons onClick={() => window.location.href='https://mail.google.com/mail/?view=cm&fs=1&to=chouhansumit1807@gmail.com'} place="/Images/Logos/gmail.webp"/>
+                <Icons onClick={() => (window.location.href='https://github.com/Sumitchouhan774')} place="/Images/Logos/github.webp" />
+                <Icons onClick={() => (window.location.href='https://www.linkedin.com/in/sumit-chouhan-848674272/')} place="/Images/Logos/linkedin.webp" />
                 <hr />
-                <Icons place="/Images/Logos/user-trash-full.png" />
+                <Icons onClick={() => (window.location.href='https://open.spotify.com/playlist/37i9dQZF1DZ06evO1mWvp6')} place="/Images/Logos/spotify.webp" />
             </div>
 
             {/* About Section - Conditionally Rendered */}
@@ -69,7 +69,7 @@ function App() {
                     <div className="title-bar">
                         <p>About Sumit</p>
                         {/* Close Button */}
-                        <img className="close" src="Images/Logos/close.png" alt="Close" onClick={() => setIsAboutOpen(false)} />
+                        <img className="close" src="Images/Logos/close.webp" alt="Close" onClick={() => setIsAboutOpen(false)} />
                     </div>
 
                     <div className="container">
@@ -85,7 +85,7 @@ function App() {
                         <main>
                             {activeSection === "about" && (
                                 <div className="header">
-                                <img src="Images/Avatar.png" alt="Avatar"/>
+                                <img src="Images/Avatar.webp" alt="Avatar"/>
                                     <h1>My name is <span className="highlight">Sumit Chouhan</span>,</h1>
                                     <h2>I'm a <span className="highlight">Full Stack Developer</span></h2>
                                     <div className="details">
@@ -129,9 +129,9 @@ function App() {
                             {activeSection === "projects" && (
                                 <div className="projects">
                                     <h1>Projects</h1>
-                                    <Project name="Bakery Website" link="https://creamandcrumb.github.io/CreamAndCrumb/" date="(Feb 2025)" content="A fully responsive bakery website inspired by Wallflour Bakehouse, built using HTML, CSS, JavaScript." />
-                                    <Project name="Ecommerce website" link="https://github.com/Sumitchouhan774/E-Commerce" date="(May 2024)" content="Developed a scalable e-commerce backend using Spring Boot and MongoDB for efficient data management." />
-                                    <Project name="Bubble Game" link="https://github.com/Sumitchouhan774/Bubble-Game" date="(Dec 2024)" content="Bubble Game is an interactive and engaging browser-based game where players pop bubbles with specific numbers to score points within a set time limit." />
+                                    <Project name="Bakery Website" link="https://creamandcrumb.github.io/CreamAndCrumb/" date="Feb 2025" content="A fully responsive bakery website inspired by Wallflour Bakehouse, built using HTML, CSS, JavaScript." />
+                                    <Project name="Ecommerce website" link="https://github.com/Sumitchouhan774/E-Commerce" date="May 2024" content="Developed a scalable e-commerce backend using Spring Boot and MongoDB for efficient data management." />
+                                    <Project name="Bubble Game" link="https://github.com/Sumitchouhan774/Bubble-Game" date="Dec 2024" content="Bubble Game is an interactive and engaging browser-based game where players pop bubbles with specific numbers to score points within a set time limit." />
                                 </div>
                             )}
 
