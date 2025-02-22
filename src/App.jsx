@@ -54,7 +54,7 @@ function App() {
 
             <div className="left">
                 <Icons onClick={() => (window.location.href='https://www.google.com')} place="Images/Logos/chromium.webp" />
-                <Icons onClick={() => (window.location.href='https://codesandbox.io/p/github/Sumitchouhan774/UbuntuOs-Portfolio/master?workspaceId=ws_AuXM2eJ9pGGKAVUoazjPfK')} place="/Images/Logos/vscode.webp" />
+                <Icons onClick={() => (window.location.href='https://codesandbox.io/p/github/Sumitchouhan774/UbuntuOs-Portfolio/draft/reverent-waterfall?file=%2Fsrc%2FApp.jsx&workspaceId=ws_TZpUUFPLUcRb8unGguKeUH')} place="/Images/Logos/vscode.webp" />
                 <Icons onClick={() => setIsAboutOpen(true)} place="/Images/Logos/user-home.webp"/>
                 <Icons onClick={() => window.location.href='https://mail.google.com/mail/?view=cm&fs=1&to=chouhansumit1807@gmail.com'} place="/Images/Logos/gmail.webp"/>
                 <Icons onClick={() => (window.location.href='https://github.com/Sumitchouhan774')} place="/Images/Logos/github.webp" />
@@ -129,7 +129,8 @@ function App() {
                             {activeSection === "projects" && (
                                 <div className="projects">
                                     <h1>Projects</h1>
-                                    <Project name="Bakery Website" link="https://creamandcrumb.github.io/CreamAndCrumb/" date="Feb 2025" content="A fully responsive bakery website inspired by Wallflour Bakehouse, built using HTML, CSS, JavaScript." />
+                                    <Project name="UbuntuOs Portfolio" link="https://github.com/Sumitchouhan774/UbuntuOs-Portfolio" date="Feb 2025" content="Ubuntu-Style Portfolio is a personal portfolio website inspired by the Ubuntu OS. It features a dynamic about section, and interactive project showcases, built using ReactJs."/>
+                                    <Project name="Bakery Website" link="https://creamandcrumb.github.io/CreamAndCrumb/" date="Jan 2025" content="A fully responsive bakery website inspired by Wallflour Bakehouse, built using HTML, CSS, JavaScript." />
                                     <Project name="Ecommerce website" link="https://github.com/Sumitchouhan774/E-Commerce" date="May 2024" content="Developed a scalable e-commerce backend using Spring Boot and MongoDB for efficient data management." />
                                     <Project name="Bubble Game" link="https://github.com/Sumitchouhan774/Bubble-Game" date="Dec 2024" content="Bubble Game is an interactive and engaging browser-based game where players pop bubbles with specific numbers to score points within a set time limit." />
                                 </div>
