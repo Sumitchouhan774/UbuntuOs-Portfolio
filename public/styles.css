@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Ubuntu, "cursive";
+    
+}
+body {
+    background-image: url(Images/bg.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar{
+    position: fixed;
+    background-color: rgb(17, 16, 16);
+    width: 100%;
+    height: 33px;
+    text-align: center;
+}
+.navbar p {
+    color: white;
+    padding-top: 6px;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.left {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    height: 100vh;
+    width: 70px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.left hr {
+    margin: 8px;
+    border: solid 1px grey;
+}
+.icons {
+    padding: 10px 10px;
+}
+.icons:hover {
+    background-color: rgba(128, 128, 128, 0.2);
+    border-radius: 18px;
+}
+.home-icon {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.home-icon p {
+    color: white;
+    font-size: medium;
+    font-weight: 300;
+    margin-right: 6px;
+    margin-bottom: 5px;
+}
+
+.about {
+    height: 80vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    position: absolute; /* You can also use `fixed` if needed */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white; /* Optional: adds a slight background */
+    border-radius: 10px; /* Optional: rounded edges */
+    overflow: auto;
+}
+.title-bar {
+    background-color: #EAEAEA;
+    color: black;
+    width: 100%;
+    height: 35px;
+    padding: 10px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.close {
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 6px;
+    right: 4px;
+}
+.close:hover {
+    cursor: pointer;
+    background-color: #d3c7d3;
+    border-radius: 50%;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    flex: 1;
+}
+.sidebar {
+    background-color: #EAEAEA;
+    /* padding: 20px; */
+    display: flex;
+    flex-direction: column;
+    border-bottom-left-radius: 10px;
+}
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+.sidebar li {
+    padding: 15px;
+    color: black;
+}
+.sidebar li:hover, .sidebar .active {
+    background: #d3c7d3;
+}
+
+.content {
+    padding: 40px;
+}
+.header {
+    text-align: center;
+    padding: 20px;
+}
+.header img {
+    height: 200px;
+    width: 200px;
+}
+.header h1 {margin-top: 20px;}
+.details {
+    /* margin-top: 20px; */
+    text-align: left;
+    padding: 15px;
+}
+.details p {
+    margin-top: 15px;
+}
+.highlight {
+    color: #FF4C98;
+}
+/* General Styles */
+.skills-container {
+    background: white;  /* Dark theme background */
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+/* Section Titles */
+.skills-container h3 {
+    color: black;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.skills-container h1 {
+    text-align: center;
+}
+/* Paragraph Styles */
+.skills-container p {
+    color: black;
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+/* Skills Wrapper */
+.skills-wrapper {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/* Skill Box */
+.skill-box {
+    display: inline-block;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-transform: uppercase;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease-in-out;
+}
+
+.skill-box:hover {
+    transform: scale(1.1);
+}
+
+/* Language & Tools */
+.html { background: #e34f26; color: white; }
+.css { background: #1572b6; color: white; }
+.javascript { background: #f7df1e; color: black; }
+.mongodb { background: #4DB33D; color: white; }
+.git { background: #F05032; color: white; }
+
+/* Frameworks & Libraries */
+.nodejs { background: #3c873a; color: white; }
+.express { background: #000; color: white; border: 1px solid white; }
+.react { background: #61dbfb; color: black; }
+.tailwind { background: #38bdf8; color: black; }
+
+/* Linux Badge */
+.linux {
+    background: #0066cc;
+    color: white;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+}
+.projects h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.project-container {
+    border-radius: 5px;
+    padding: 20px;
+    border: 1px solid grey;
+}
+.project-container:hover {
+    background-color: #d3c7d3;
+    cursor: pointer;
+}
+.project-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+.project-container p {
+    margin-top: 10px;
+}
+.date {
+    font-weight: 100;
+    font-size: small;
+}
+.education h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.edu-box {
+    margin-left: 10px;
+    padding: 20px;
+    line-height: 1.6;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    .skills-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .about {
+        width: 90vw; /* Make it almost full width */
+        height: auto; /* Let it adjust based on content */
+        max-height: 90vh; /* Prevent overflow on smaller screens */
+        /* padding: 15px; */
+    }
+    .content {
+        padding: 15px;
+    }
+}
