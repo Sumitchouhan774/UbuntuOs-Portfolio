@@ -266,7 +266,7 @@ body {
     position: fixed;
     width: 100%;
     height: 100vh;
-    background: black;
+    background: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -278,8 +278,7 @@ body {
   .spinner {
     width: 80px;
     height: 80px;
-    border: 5px solid white;
-    margin-right: 25px;
+    border: 5px solid black;
     border-top: 5px solid transparent;
     border-radius: 50%;
     animation: spin 1s linear infinite;
@@ -289,25 +288,12 @@ body {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
   }
-  .logo {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    bottom: 100px;
-    gap: 10px;
-  }
-  .loader {
-    margin-left: 60px;
-    height: 80px;
-    width: 80px;
-  }
   /* Ubuntu text styling */
   .ubuntu-text {
-    /* position: absolute;
-    bottom: 150px; */
-    color: white;
-    font-size: 4.2rem;
-    font-weight: bold;
+    height: 100px;
+    width: auto;
+    position: absolute;
+    bottom: 100px;
   }
   
   
@@ -329,4 +315,7 @@ body {
     .body {
         background-size: contain;
     } 
+    .ubuntu-text {
+        width: 80%;
+    }
 }
