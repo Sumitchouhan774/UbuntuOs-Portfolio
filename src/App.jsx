@@ -105,7 +105,7 @@ function App() {
                                     <h2>I'm a <span className="highlight">Full Stack Developer</span></h2>
                                     <div className="details">
                                         <p>🎓 I'm currently pursuing a Bachelor's in Information Technology. I've completed my 2-month Java internship at Internsup, and now I'm looking for new opportunities to kick-start my career.</p>
-                                        <p>👨‍💻 I enjoy building awesome software that solves practical problems.</p>
+                                        <p>👨‍💻 I enjoy building awesome software that makes a real impact and enhances user experiences.</p>
                                         <p>👾 Apart from coding, I have a strong passion for basketball and have competed in college-level tournaments.</p>
                                         <p>🌟 I also have a keen interest in AI tools and technologies.</p>
                                     </div>
