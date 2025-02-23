@@ -68,6 +68,4 @@ This project is licensed under the **MIT License**.
 
 
 chouhansumit@gmail.com
-```
 
-Just copy and paste this into your `README.md`, and you're good to go! 🚀 Let me know if you want any modifications.
