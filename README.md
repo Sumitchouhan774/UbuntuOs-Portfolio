@@ -57,7 +57,7 @@ npm start
 
 ## 📸 Preview
 
-<img src="https://github.com/Sumitchouhan774/UbuntuOs-Portfolio/blob/main/public/Images/Preview.webp" height="300" width="300"/>
+<img src="https://github.com/Sumitchouhan774/UbuntuOs-Portfolio/blob/main/public/Images/Preview.webp" height="300" width="auto"/>
 
 ## 📝 License
 
