@@ -2,10 +2,12 @@ import React, { useState, useEffect } from "react";
 import Icons from "./components/Icons";
 import Project from "./components/Project";
 import Edu from "./components/Edu";
+import Loader from "./components/Loader";
 
 function App() {
     const [activeSection, setActiveSection] = useState("about");
     const [isAboutOpen, setIsAboutOpen] = useState(false); // State for showing/hiding about section
+    const [loading, setLoading] = useState(true);
 
     const formatDate = (date) => {
         return date.toLocaleString("en-US", {
@@ -16,6 +18,13 @@ function App() {
             hour12: false,
         }).replace(",", "");
     };
+
+    useEffect(() => {
+        // Simulate a delay (e.g., fetching data)
+        setTimeout(() => {
+          setLoading(false);
+        }, 3000); // Adjust the time as needed
+      }, []);
 
     useEffect(() => {
         const menuItems = document.querySelectorAll(".sidebar ul li");
@@ -42,6 +51,12 @@ function App() {
 
     return (
         <div>
+        <div>
+      {loading ? (
+        <Loader /> // Show the loading screen
+      ) : 
+      null}
+    </div>
             <div className="navbar">
                 <p>{formatDate(currentDate)}</p>
             </div>
@@ -56,7 +71,7 @@ function App() {
                 <Icons onClick={() => (window.location.href='https://www.google.com')} place="Images/Logos/chromium.webp" />
                 <Icons onClick={() => (window.location.href='https://codesandbox.io/p/github/Sumitchouhan774/UbuntuOs-Portfolio/draft/reverent-waterfall?file=%2Fsrc%2FApp.jsx&workspaceId=ws_TZpUUFPLUcRb8unGguKeUH')} place="/Images/Logos/vscode.webp" />
                 <Icons onClick={() => setIsAboutOpen(true)} place="/Images/Logos/user-home.webp"/>
-                <Icons onClick={() => window.location.href='https://mail.google.com/mail/?view=cm&fs=1&to=chouhansumit1807@gmail.com'} place="/Images/Logos/gmail.webp"/>
+                <Icons onClick={() => window.location.href='https://mail.google.com/mail/u/0/?fs=1&to=chouhansumit1807@gmail.com&tf=cm'} place="/Images/Logos/gmail.webp"/>
                 <Icons onClick={() => (window.location.href='https://github.com/Sumitchouhan774')} place="/Images/Logos/github.webp" />
                 <Icons onClick={() => (window.location.href='https://www.linkedin.com/in/sumit-chouhan-848674272/')} place="/Images/Logos/linkedin.webp" />
                 <hr />
