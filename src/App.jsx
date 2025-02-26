@@ -146,6 +146,7 @@ function App() {
                                     <h1>Projects</h1>
                                     <Project name="UbuntuOs Portfolio" link="https://github.com/Sumitchouhan774/UbuntuOs-Portfolio" date="Feb 2025" content="Ubuntu-Style Portfolio is a personal portfolio website inspired by the Ubuntu OS. It features a dynamic about section, and interactive project showcases, built using ReactJs."/>
                                     <Project name="Bakery Website" link="https://creamandcrumb.github.io/CreamAndCrumb/" date="Jan 2025" content="A fully responsive bakery website inspired by Wallflour Bakehouse, built using HTML, CSS, JavaScript." />
+                                    <Project name="K-Raven AI" link="https://github.com/Sumitchouhan774/K-Raven.?tab=readme-ov-file" date="Feb 2025" content="A sleek, smart, and lightning-fast AI chatbot powered by Google's Generative AI!"/>
                                     <Project name="Ecommerce website" link="https://github.com/Sumitchouhan774/E-Commerce" date="May 2024" content="Developed a scalable e-commerce backend using Spring Boot and MongoDB for efficient data management." />
                                     <Project name="Bubble Game" link="https://github.com/Sumitchouhan774/Bubble-Game" date="Dec 2024" content="Bubble Game is an interactive and engaging browser-based game where players pop bubbles with specific numbers to score points within a set time limit." />
                                 </div>
