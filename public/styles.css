@@ -92,8 +92,6 @@ body {
 }
 .close:hover {
     cursor: pointer;
-    background-color: #d3c7d3;
-    border-radius: 50%;
 }
 .container {
     display: grid;
@@ -117,6 +115,7 @@ body {
 }
 .sidebar li:hover, .sidebar .active {
     background: #d3c7d3;
+    border-radius: 15px;
 }
 
 .content {
@@ -183,7 +182,7 @@ body {
 }
 
 /* Skill Box */
-.skill-box {
+/* .skill-box {
     display: inline-block;
     padding: 8px 12px;
     font-size: 14px;
@@ -192,30 +191,34 @@ body {
     text-transform: uppercase;
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
     transition: transform 0.2s ease-in-out;
+} */
+.skills {
+    height: 50px;
+    width: 50px;
 }
 
-.skill-box:hover {
+.skills:hover {
     transform: scale(1.1);
 }
 
 /* Language & Tools */
-.html { background: #e34f26; color: white; }
+/* .html { background: #e34f26; color: white; }
 .css { background: #1572b6; color: white; }
 .javascript { background: #f7df1e; color: black; }
 .mongodb { background: #4DB33D; color: white; }
 .git { background: #F05032; color: white; }
 
 /* Frameworks & Libraries */
-.nodejs { background: #3c873a; color: white; }
+/* .nodejs { background: #3c873a; color: white; }
 .express { background: #000; color: white; border: 1px solid white; }
 .react { background: #61dbfb; color: black; }
-.tailwind { background: #38bdf8; color: black; }
+.tailwind { background: #38bdf8; color: black; } */ 
 
 /* Linux Badge */
-.linux {
+/* .linux {
     background: #0066cc;
     color: white;
-}
+} */
 
 .projects {
     display: flex;
@@ -318,5 +321,9 @@ body {
     } 
     .ubuntu-text {
         width: 80%;
+    }
+    .skill-box {
+        justify-content: space-between;
+        gap: 10px;
     }
 }

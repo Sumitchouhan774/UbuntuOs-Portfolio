@@ -121,22 +121,23 @@ function App() {
 
                                     <h3>Languages & Tools</h3>
                                     <div className="skills-wrapper">
-                                        <span className="skill-box linux">Java</span>
-                                        <span className="skill-box html">HTML</span>
-                                        <span className="skill-box css">CSS</span>
-                                        <span className="skill-box javascript">JavaScript</span>
-                                        <span className="skill-box mongodb">MongoDB</span>
-                                        <span className="skill-box css">PostgreSQL</span>
-                                        <span className="skill-box git">GitHub</span>
+                                        <img className="skills" src="https://img.icons8.com/?size=100&id=13679&format=png&color=000000" alt="skills"/>
+                                        <img className="skills" src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="skills"/>
+                                        <img className="skills" src="https://img.icons8.com/?size=100&id=21278&format=png&color=000000" alt="skills"/>
+                                        <img className="skills" src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000" alt="skills"/>
+                                        <img className="skills" src="https://img.icons8.com/?size=100&id=8rKdRqZFLurS&format=png&color=000000" alt="skills"/>
+                                        <img className="skills" src="https://img.icons8.com/?size=100&id=LwQEs9KnDgIo&format=png&color=000000" alt="skills"/>
+                                        <img className="skills" src="https://img.icons8.com/?size=100&id=LoL4bFzqmAa0&format=png&color=000000" alt="skills"/>
+                                        <img className="skills" src="https://img.icons8.com/?size=100&id=QEQQKirln6Tf&format=png&color=000000" alt="skills"/>
                                     </div>
 
                                     <h3>Frameworks & Libraries</h3>
                                     <div className="skills-wrapper">
-                                        <span className="skill-box nodejs">Node.js</span>
-                                        <span className="skill-box express">Express.js</span>
-                                        <span className="skill-box react">React.js</span>
-                                        <span className="skill-box tailwind">Bootstrap</span>
-                                        <span className="skill-box nodejs">Spring Boot</span>
+                                        <img className="skills" src="https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000" alt="skills"/>
+                                        <img className="skills" src="https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=000000" alt="skills"/>
+                                        <img className="skills" src="https://img.icons8.com/?size=100&id=NfbyHexzVEDk&format=png&color=000000" alt="skills"/>
+                                        <img className="skills" src="https://img.icons8.com/?size=100&id=PndQWK6M1Hjo&format=png&color=000000" alt="skills"/>
+                                        <img className="skills" src="https://img.icons8.com/?size=100&id=90519&format=png&color=000000" alt="skills"/>
                                     </div>
                                 </div>
                             )}
@@ -145,6 +146,7 @@ function App() {
                                 <div className="projects">
                                     <h1>Projects</h1>
                                     <Project name="UbuntuOs Portfolio" link="https://github.com/Sumitchouhan774/UbuntuOs-Portfolio" date="Feb 2025" content="Ubuntu-Style Portfolio is a personal portfolio website inspired by the Ubuntu OS. It features a dynamic about section, and interactive project showcases, built using ReactJs."/>
+                                    <Project name="DBank" link="https://github.com/Sumitchouhan774/D_Bank" date="Feb 2025" content="A cutting-edge decentralized banking application built on Web3 technologies using Dfinity Canisters. This project enables seamless transactions, allowing users to deposit and withdraw funds securely on the Internet Computer blockchain."/>
                                     <Project name="Bakery Website" link="https://creamandcrumb.github.io/CreamAndCrumb/" date="Jan 2025" content="A fully responsive bakery website inspired by Wallflour Bakehouse, built using HTML, CSS, JavaScript." />
                                     <Project name="K-Raven AI" link="https://github.com/Sumitchouhan774/K-Raven.?tab=readme-ov-file" date="Feb 2025" content="A sleek, smart, and lightning-fast AI chatbot powered by Google's Generative AI!"/>
                                     <Project name="Ecommerce website" link="https://github.com/Sumitchouhan774/E-Commerce" date="May 2024" content="Developed a scalable e-commerce backend using Spring Boot and MongoDB for efficient data management." />
