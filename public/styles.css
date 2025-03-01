@@ -326,4 +326,7 @@ body {
         justify-content: space-between;
         gap: 10px;
     }
+    .skills-wrapper {
+        flex-direction: row;
+    }
 }

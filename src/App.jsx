@@ -130,7 +130,6 @@ function App() {
                                         <img className="skills" src="https://img.icons8.com/?size=100&id=LoL4bFzqmAa0&format=png&color=000000" alt="skills"/>
                                         <img className="skills" src="https://img.icons8.com/?size=100&id=QEQQKirln6Tf&format=png&color=000000" alt="skills"/>
                                     </div>
-
                                     <h3>Frameworks & Libraries</h3>
                                     <div className="skills-wrapper">
                                         <img className="skills" src="https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000" alt="skills"/>
@@ -138,6 +137,12 @@ function App() {
                                         <img className="skills" src="https://img.icons8.com/?size=100&id=NfbyHexzVEDk&format=png&color=000000" alt="skills"/>
                                         <img className="skills" src="https://img.icons8.com/?size=100&id=PndQWK6M1Hjo&format=png&color=000000" alt="skills"/>
                                         <img className="skills" src="https://img.icons8.com/?size=100&id=90519&format=png&color=000000" alt="skills"/>
+                                    </div>
+                                    <h3>UI/UX Tools</h3>
+                                    <div className="skills-wrapper">
+                                        <img className="skills" src="https://img.icons8.com/?size=100&id=zfHRZ6i1Wg0U&format=png&color=000000" alt="skills"/>
+                                        <img className="skills" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqZNnVO2DrF2rAvBrzcg9Yjfh3QFNsEpgGcA&s" alt="skills"/>
+                                        <img className="skills" src="https://img.icons8.com/?size=100&id=iWw83PVcBpLw&format=png&color=000000" alt="skills"/>
                                     </div>
                                 </div>
                             )}
